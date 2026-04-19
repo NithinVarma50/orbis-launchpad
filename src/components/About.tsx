@@ -1,4 +1,4 @@
-const PARA = "A digital object fixed beyond time and place. An exploration of distance, form, and silence in space";
+const PARA = "A suit with no gravity. A clock with no hands. An astronaut transmitting from the edge of every era he passed through.";
 
 const About = () => {
   return (
@@ -17,15 +17,15 @@ const About = () => {
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
           <div className="relative">
             <h2 className="font-grotesk uppercase text-cream text-[32px] sm:text-[44px] md:text-[52px] lg:text-[60px] leading-[1]">
-              Hello!
+              Hello.
               <br />
-              I'm orbis
+              I'm The Void
             </h2>
             <span
               className="font-condiment text-neon absolute right-0 -bottom-2 sm:-bottom-3 text-[36px] sm:text-[48px] md:text-[58px] lg:text-[68px] -rotate-2"
               style={{ mixBlendMode: "exclusion" }}
             >
-              Orbis
+              unmoored
             </span>
           </div>
 

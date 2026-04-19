@@ -1,14 +1,17 @@
 const NFTS = [
   {
     src: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_053923_22c0a6a5-313c-474c-85ff-3b50d25e944a.mp4",
+    name: "BEFORE LAUNCH",
     score: "8.7/10",
   },
   {
     src: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_054411_511c1b7a-fb2f-42ef-bf6c-32c0b1a06e79.mp4",
+    name: "SIGNAL LOST",
     score: "9/10",
   },
   {
     src: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_055427_ac7035b5-9f3b-4289-86fc-941b2432317d.mp4",
+    name: "YEAR UNKNOWN",
     score: "8.2/10",
   },
 ];
@@ -24,9 +27,9 @@ const Collection = () => {
             <br />
             <span className="ml-12 lg:ml-24 xl:ml-32 inline-block">
               <span className="font-condiment text-neon normal-case mr-3" style={{ mixBlendMode: "exclusion" }}>
-                Space
+                Frozen
               </span>
-              objects
+              moments
             </span>
           </h2>
 
@@ -35,7 +38,7 @@ const Collection = () => {
               <span className="font-grotesk uppercase text-cream text-[32px] sm:text-[44px] lg:text-[60px] leading-none">SEE</span>
               <span className="font-grotesk uppercase text-cream text-[20px] sm:text-[28px] lg:text-[36px] leading-[1] flex flex-col">
                 ALL
-                <span>CREATORS</span>
+                <span>FRAGMENTS</span>
               </span>
             </div>
             <div className="bg-neon h-[6px] lg:h-[10px] w-full mt-3" />
@@ -59,11 +62,16 @@ const Collection = () => {
                   src={nft.src}
                 />
 
+                {/* Top name label */}
+                <div className="absolute left-3 right-3 top-3 liquid-glass rounded-[16px] px-4 py-2">
+                  <span className="font-grotesk uppercase text-cream text-[14px] tracking-wider">{nft.name}</span>
+                </div>
+
                 {/* Overlay bar */}
                 <div className="absolute left-3 right-3 bottom-3 liquid-glass rounded-[20px] px-5 py-4 flex items-center justify-between">
                   <div className="flex flex-col">
                     <span className="font-mono uppercase text-cream/70 text-[11px] tracking-wider">
-                      Rarity score:
+                      Epoch:
                     </span>
                     <span className="font-grotesk text-cream text-[16px]">{nft.score}</span>
                   </div>
