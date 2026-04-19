@@ -1,13 +1,11 @@
+import LazyVideo from "./LazyVideo";
+
 const PARA = "A suit with no gravity. A clock with no hands. An astronaut transmitting from the edge of every era he passed through.";
 
 const About = () => {
   return (
-    <section className="relative w-full overflow-hidden">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
+    <section className="relative w-full overflow-hidden" aria-label="About">
+      <LazyVideo
         className="absolute inset-0 w-full h-full object-cover"
         src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_151551_992053d1-3d3e-4b8c-abac-45f22158f411.mp4"
       />

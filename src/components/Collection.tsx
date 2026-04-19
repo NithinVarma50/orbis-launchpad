@@ -1,3 +1,5 @@
+import LazyVideo from "./LazyVideo";
+
 const NFTS = [
   {
     src: "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_053923_22c0a6a5-313c-474c-85ff-3b50d25e944a.mp4",
@@ -53,13 +55,10 @@ const Collection = () => {
               className="liquid-glass rounded-[32px] p-[18px] hover:bg-white/10 transition-colors"
             >
               <div className="relative w-full rounded-[24px] overflow-hidden" style={{ paddingBottom: "100%" }}>
-                <video
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
+                <LazyVideo
                   className="absolute inset-0 w-full h-full object-cover"
                   src={nft.src}
+                  ariaLabel={`${nft.name} — epoch ${nft.score}`}
                 />
 
                 {/* Top name label */}

@@ -1,4 +1,5 @@
 import { Mail, Globe, Github } from "lucide-react";
+import LazyVideo from "./LazyVideo";
 
 const SOCIALS = [
   { Icon: Mail, label: "Email", href: "mailto:varmanithin029@gmail.com" },
@@ -8,12 +9,8 @@ const SOCIALS = [
 
 const CTA = () => {
   return (
-    <section className="relative w-full">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
+    <section className="relative w-full" aria-label="Join">
+      <LazyVideo
         className="w-full h-auto block"
         src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_055729_72d66327-b59e-4ae9-bb70-de6ccb5ecdb0.mp4"
       />
