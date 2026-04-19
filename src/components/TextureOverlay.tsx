@@ -5,8 +5,8 @@ const TextureOverlay = () => (
     style={{
       backgroundImage: "url('/texture.png')",
       backgroundSize: "cover",
-      mixBlendMode: "lighten",
-      opacity: 0.6,
+      mixBlendMode: "overlay",
+      opacity: 0.15,
     }}
   />
 );
