@@ -1,15 +1,13 @@
 import SocialIcons from "./SocialIcons";
+import LazyVideo from "./LazyVideo";
 
 const NAV = ["Home", "Archive", "Mint", "Transmission", "Signal"];
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen min-h-[700px] overflow-hidden rounded-b-[32px]">
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
+    <section className="relative w-full h-screen min-h-[700px] overflow-hidden rounded-b-[32px]" aria-label="Hero">
+      <LazyVideo
+        eager
         className="absolute inset-0 w-full h-full object-cover"
         src="https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_045634_e1c98c76-1265-4f5c-882a-4276f2080894.mp4"
       />
