@@ -1,6 +1,6 @@
 import SocialIcons from "./SocialIcons";
 
-const NAV = ["Homepage", "Gallery", "Buy NFT", "FAQ", "Contact"];
+const NAV = ["Home", "Archive", "Mint", "Transmission", "Signal"];
 
 const Hero = () => {
   return (
@@ -17,8 +17,8 @@ const Hero = () => {
       <div className="relative z-10 max-w-[1831px] mx-auto px-6 sm:px-10 lg:px-16 h-full flex flex-col">
         {/* Header */}
         <header className="flex items-center justify-between pt-8">
-          <a href="#" className="font-grotesk text-cream text-[16px] uppercase tracking-wider">
-            Orbis.Nft
+          <a href="#" className="font-grotesk text-cream text-[16px] uppercase tracking-wider flex items-center gap-2">
+            <span aria-hidden>🌐</span> VOIDMARK
           </a>
 
           <nav className="hidden lg:block liquid-glass rounded-[28px] px-[52px] py-[24px]">
@@ -43,16 +43,16 @@ const Hero = () => {
         <div className="flex-1 flex flex-col justify-end pb-16 lg:pb-24">
           <div className="relative max-w-[780px] lg:ml-32">
             <h1 className="font-grotesk uppercase text-cream text-[40px] sm:text-[60px] md:text-[75px] lg:text-[90px] leading-[1.05] sm:leading-[1]">
-              Beyond earth
+              Drifting between
               <br />
-              and ( its ) familiar boundaries
+              what ( was ) and what remains
             </h1>
 
             <span
               className="font-condiment text-neon absolute right-0 -top-4 sm:top-2 md:top-4 text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px] -rotate-1 opacity-90"
               style={{ mixBlendMode: "exclusion" }}
             >
-              Nft collection
+              lost in time
             </span>
           </div>
 
