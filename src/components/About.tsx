@@ -37,12 +37,12 @@ const About = () => {
         {/* Bottom row */}
         <div className="flex justify-between gap-10 mt-20">
           <div className="flex flex-col gap-6 max-w-[266px]">
-            <p className="font-mono uppercase text-[14px] sm:text-[16px] opacity-10 text-[#010828] lg:text-cream leading-snug">{PARA}</p>
-            <p className="font-mono uppercase text-[14px] sm:text-[16px] opacity-10 text-[#010828] lg:text-cream leading-snug">{PARA}</p>
+            <p className="font-mono uppercase text-cream text-[14px] sm:text-[16px] opacity-70 leading-snug">{PARA}</p>
+            <p className="font-mono uppercase text-cream text-[14px] sm:text-[16px] opacity-70 leading-snug">{PARA}</p>
           </div>
           <div className="hidden lg:flex flex-col gap-6 max-w-[266px]">
-            <p className="font-mono uppercase text-[14px] sm:text-[16px] opacity-10 text-cream leading-snug">{PARA}</p>
-            <p className="font-mono uppercase text-[14px] sm:text-[16px] opacity-10 text-cream leading-snug">{PARA}</p>
+            <p className="font-mono uppercase text-cream text-[14px] sm:text-[16px] opacity-70 leading-snug">{PARA}</p>
+            <p className="font-mono uppercase text-cream text-[14px] sm:text-[16px] opacity-70 leading-snug">{PARA}</p>
           </div>
         </div>
       </div>
