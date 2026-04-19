@@ -20,7 +20,7 @@ const About = () => {
               I'm The Void
             </h2>
             <span
-              className="font-condiment text-neon absolute left-full ml-4 -bottom-4 sm:-bottom-6 text-[36px] sm:text-[48px] md:text-[58px] lg:text-[68px] -rotate-2 whitespace-nowrap"
+              className="font-condiment text-neon block lg:absolute lg:left-full lg:ml-4 lg:-bottom-6 mt-2 lg:mt-0 text-[36px] sm:text-[48px] md:text-[58px] lg:text-[68px] -rotate-2 whitespace-nowrap origin-left"
               style={{ mixBlendMode: "exclusion" }}
             >
               unmoored
