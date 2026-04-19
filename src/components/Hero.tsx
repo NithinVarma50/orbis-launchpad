@@ -39,7 +39,7 @@ const Hero = () => {
 
         {/* Hero content */}
         <div className="flex-1 flex flex-col justify-end pb-16 lg:pb-24">
-          <div className="relative max-w-[780px] lg:ml-32">
+          <div className="relative max-w-[780px] lg:ml-0 lg:mr-auto">
             <h1 className="font-grotesk uppercase text-cream text-[40px] sm:text-[60px] md:text-[75px] lg:text-[90px] leading-[1.05] sm:leading-[1]">
               Drifting between
               <br />
